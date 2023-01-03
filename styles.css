@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,900&display=swap');
+
+body{
+    text-align: center;
+    margin: 0px;
+}
+
+.menu{
+    background-color: blueviolet;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin-top: 0px;
+    z-index: 1;
+}
+
+.links{
+    display: inline;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(22, 24, 26);
+    
+}
+
+a:hover{
+    font-size: 35px;
+    color: red;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#profile{
+    margin-top: 60px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#timname{
+    font-family: 'Sevillana', cursive;
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+#founder{
+    font-family: 'Sevillana', cursive;
+}
+
+#home{
+    background-image: linear-gradient(to bottom right,red,green,purple,yellow);
+}
+#mail{
+    text-decoration: none;
+}
